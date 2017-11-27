@@ -19,14 +19,16 @@ import javax.persistence.Table;
 
 
 @Entity
-@Table(name="ticketssystem")
+@Table(name="ticket")
 public class Ticket {
     
     
     //declaramos nuestra variable key igual como en Mysql
+    
     @Id @GeneratedValue
     @Column(name="idticket")
     private int idticket;
+    
     
     @Column(name="correo")
     private String correo;

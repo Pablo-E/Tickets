@@ -42,7 +42,7 @@ public class ticketDAO {
        t.setFalla(falla);
        t.setImagen(imagen);
        
-       
+        System.out.println("estoy aqui");
       
 
         try {
