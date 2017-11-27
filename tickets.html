@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Garantías</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/popper.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </head>
+  <body class="bg-secondary">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-header">
+              <h3>Formulario para registro de Garantías</h3>
+                <form>
+                  <div class="form-group">
+                    <label for="Email1">Corréo de contacto</label>
+                    <input type="email" class="form-control" id="Emails" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">Uno de nuestros asesores le contactará muy pronto.</small>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleSelect1">Elige el modelo de tu equipo</label>
+                    <select class="form-control" id="modelos">
+                      <option> Opciones...</option>
+                      <option>1.- MCQueen</option>
+                      <option>2.- Hudson</option>
+                      <option>3.- Maserati</option>
+                      <option>4.- Harley</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleSelect1">Cuál ha sido su falla</label>
+                    <select class="form-control" id="fallas">
+                      <option> Opciones...</option>
+                      <option>1.- No sé qué pasó</option>
+                      <option>2.- A lo mejor se rompió</option>
+                      <option>3.- El uso no fue el adecuado</option>
+                      <option>4.- Al diablo, ya no lo quiero </option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleTextarea">Decríbenos tu problemo</label>
+                    <textarea class="form-control" id="comentario" rows="8"></textarea>
+                  </div>
+
+                <div class="form-group">
+                  <label for="exampleInputFile">File input</label>
+                  <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                  <small id="fileHelp" class="form-text text-muted">Sube tu archivo.</small>
+                </div>
+
+
+                  <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
